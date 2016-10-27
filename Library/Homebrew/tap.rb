@@ -64,7 +64,7 @@ class Tap
     @user = user
     @repo = repo
     @name = "#{@user}/#{@repo}".downcase
-    @path = TAP_DIRECTORY/"#{@user}/homebrew-#{@repo}".downcase
+    @path = TAP_DIRECTORY/"#{@user}/workbrew-#{@repo}".downcase
     @path.extend(GitRepositoryExtension)
   end
 
